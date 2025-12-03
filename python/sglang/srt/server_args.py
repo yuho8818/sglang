@@ -386,6 +386,7 @@ class ServerArgs:
     speculative_token_map: Optional[str] = None
     speculative_attention_mode: str = "prefill"
     speculative_moe_runner_backend: Optional[str] = None
+    speculative_moe_a2a_backend: Optional[str] = None
     # For ngram only
     speculative_ngram_min_match_window_size: int = 1
     speculative_ngram_max_match_window_size: int = 12
